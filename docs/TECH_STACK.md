@@ -143,5 +143,6 @@ Stripe API → FastAPI webhooks → PostgreSQL (raw/agg)
 
 1. **SPEC.md** — Product spec, user flows, scope
 2. **TECH_STACK.md** — This document: technology choices
-3. **ARCHITECTURE.md** — Service boundaries, API contracts, deployment
-4. **DATA_MODEL.md** — Schemas, tables, migrations
+3. **ARCHITECTURE.md** — Service boundaries, API contracts, deployment, frontend structure
+4. **DATA_MODEL.md** — Database schemas, tables, migrations
+5. **IMPLEMENTATION_SPEC.md** — Implementation details: module patterns, component specs, infrastructure setup

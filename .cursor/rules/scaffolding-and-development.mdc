@@ -1,0 +1,14 @@
+---
+description: Spec-driven development — Cursor and Claude Code use the same canonical file
+alwaysApply: true
+---
+
+# Development & Scaffolding
+
+**Single source of truth:** For development and scaffolding rules, **read and follow `.github/CLAUDE.md`** (section "Development & Scaffolding"). That file is what Claude Code uses; Cursor must use it too so both share the same rules with 100% certainty.
+
+CLAUDE.md points to:
+- `docs/SCAFFOLDING_GUIDE.md` for scaffolding from scratch (phases 1–4)
+- `docs/SPECIFICATION_INDEX.md` for task → spec mapping
+
+All spec content lives in `docs/`; read the relevant spec before implementing.

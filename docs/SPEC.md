@@ -59,11 +59,18 @@ See [TECH_STACK.md](./TECH_STACK.md) for full rationale and data flow.
 
 ## Spec Documents
 
+> 📖 **Start here**: See [SPECIFICATION_INDEX.md](./SPECIFICATION_INDEX.md) for a complete guide to all specifications.
+
 | Document | Purpose |
 |----------|---------|
+| [SPECIFICATION_INDEX.md](./SPECIFICATION_INDEX.md) | **Complete guide to all specs** - roadmap for implementation |
 | [BACKGROUND_AND_VISION.md](./BACKGROUND_AND_VISION.md) | Business problems, what the agent solves, why it matters |
 | [SPEC.md](./SPEC.md) | Product scope, flows, NFRs |
 | [TECH_STACK.md](./TECH_STACK.md) | Technology choices and data flow |
 | [LLM_SPEC.md](./LLM_SPEC.md) | LLM provider abstraction (OpenAI + Ollama) |
-| [ARCHITECTURE.md](./ARCHITECTURE.md) | Services, APIs, deployment |
-| [DATA_MODEL.md](./DATA_MODEL.md) | Schemas, tables, migrations |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | Services, APIs, deployment, frontend structure |
+| [DATA_MODEL.md](./DATA_MODEL.md) | Database schemas, tables, migrations |
+| [BACKEND_SERVICES_SPEC.md](./BACKEND_SERVICES_SPEC.md) | Backend service interfaces and business logic |
+| [IMPLEMENTATION_SPEC.md](./IMPLEMENTATION_SPEC.md) | Implementation details: module structure, components, infrastructure |
+| [API_SCHEMAS.md](./API_SCHEMAS.md) | Explicit request/response JSON schemas for all endpoints |
+| [SCAFFOLDING_GUIDE.md](./SCAFFOLDING_GUIDE.md) | Step-by-step scaffolding instructions for coding agents |

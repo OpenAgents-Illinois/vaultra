@@ -113,6 +113,9 @@ users ──┬──< user_business_memberships >── businesses
 | chargeback_ratio | DECIMAL(5,4) | | chargebacks / transactions |
 | refund_count | INT | default 0 | |
 | refund_ratio | DECIMAL(5,4) | | |
+| payout_reliability | DECIMAL(5,4) | | % payouts completed on time (0-1) |
+| transaction_count | INT | default 0 | |
+| average_transaction_size | DECIMAL(15,2) | | Mean charge amount |
 | mrr | DECIMAL(15,2) | | Subscription MRR (if applicable) |
 | metrics_json | JSONB | | Extensible: extra KPIs |
 | created_at | TIMESTAMPTZ | NOT NULL, default now() | |
@@ -128,7 +131,7 @@ users ──┬──< user_business_memberships >── businesses
 | id | UUID | PK, default gen_random_uuid() | |
 | business_id | UUID | FK businesses.id, NOT NULL | |
 | score | INT | NOT NULL, CHECK (0–100) | 0–100 |
-| tier | VARCHAR(30) | NOT NULL | not_ready, needs_work, funding_ready, highly_attractive |
+| tier | VARCHAR(30) | NOT NULL | not_ready, improving, funding_ready, highly_attractive |
 | components | JSONB | | Breakdown: { revenue_stability: 0.8, risk_signals: 0.6 } |
 | created_at | TIMESTAMPTZ | NOT NULL, default now() | |
 
@@ -193,7 +196,7 @@ users ──┬──< user_business_memberships >── businesses
 | integration_status | active, revoked, error |
 | recommendation_priority | low, medium, high |
 | recommendation_status | pending, accepted, dismissed |
-| readiness_tier | not_ready, needs_work, funding_ready, highly_attractive |
+| readiness_tier | not_ready, improving, funding_ready, highly_attractive |
 
 ---
 

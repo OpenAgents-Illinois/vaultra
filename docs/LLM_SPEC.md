@@ -100,6 +100,7 @@ Note: Ollama is primarily used for **local dev** and **self-hosted** deployments
 |----------|---------|
 | [SPEC.md](./SPEC.md) | Product scope |
 | [TECH_STACK.md](./TECH_STACK.md) | Technology choices (incl. LLM section) |
-| [ARCHITECTURE.md](./ARCHITECTURE.md) | Services, APIs, deployment |
-| [DATA_MODEL.md](./DATA_MODEL.md) | Schemas, tables, migrations |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | Services, APIs, deployment, frontend structure |
+| [BACKEND_SERVICES_SPEC.md](./BACKEND_SERVICES_SPEC.md) | Backend service interfaces and business logic |
+| [DATA_MODEL.md](./DATA_MODEL.md) | Database schemas, tables, migrations |
 
