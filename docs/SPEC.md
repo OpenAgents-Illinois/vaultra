@@ -66,3 +66,4 @@ See [TECH_STACK.md](./TECH_STACK.md) for full rationale and data flow.
 | [TECH_STACK.md](./TECH_STACK.md) | Technology choices and data flow |
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | Services, APIs, deployment |
 | [DATA_MODEL.md](./DATA_MODEL.md) | Schemas, tables, migrations |
+
